@@ -1,0 +1,33 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# ==========================================
+# THÔNG TIN NHẠY CẢM & BẢO MẬT (KHÔNG ĐƯỢC ĐẨY LÊN MẠNG)
+# ==========================================
+# 1. File cấu hình Firebase
+google-services.json
+app/google-services.json
+
+# 2. Các file chứa đường dẫn máy cá nhân hoặc API Key ẩn
+local.properties
+
+# 3. Chìa khóa ký ứng dụng (Keystore) - Cực kỳ quan trọng nếu sau này đưa lên CH Play
+*.jks
+*.keystore
+
+# 4. Các file build sinh ra tự động (rất nặng, không cần thiết tải lên)
+/build/
+*/build/
+/app/build/

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Khám phá" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Bản đồ" />
+
+    <!-- Placeholder để chừa chỗ trống cho nút Camera nổi lên -->
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Sổ tay quan sát" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/outline_settings_24"
+        android:title="Cài đặt" />
+</menu>

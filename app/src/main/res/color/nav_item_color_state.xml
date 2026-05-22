@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trạng thái khi được chọn (Màu xanh nông nghiệp) -->
+    <item
+        android:state_checked="true"
+        android:color="#2E7D32" />
+
+    <!-- Trạng thái mặc định khi không được chọn (Màu xám) -->
+    <item
+        android:state_checked="false"
+        android:color="#757575" />
+
+    <!-- Màu mặc định dự phòng -->
+    <item
+        android:color="#757575" />
+</selector>

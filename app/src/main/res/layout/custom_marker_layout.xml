@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/markerContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMarkerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="#E6FFFFFF"
+            android:elevation="4dp"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="Tên côn trùng"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMarker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#FFA726"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivMarkerImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:id="@+id/triangle"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="-6dp"
+            android:background="#FFA726"
+            android:rotation="45" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCountBadge"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignTop="@id/markerContent"
+        android:layout_alignEnd="@id/markerContent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-8dp"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>
